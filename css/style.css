@@ -1,0 +1,122 @@
+html {
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../assets/Pacifico/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: "Cormo";
+    src: url("../assets/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
+}
+body{
+    background-color: #5C584D;
+}
+h1 {
+    font-family: "Pacifico";
+    color: #4B9ADB;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+}
+h2 {
+    font-family: "Cormo";
+    color: #4B9ADB;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.menunavegacion {
+    background-color: #DBB44B;
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding: 70px;
+}
+a {
+    font-family: "Cormo";
+    font-size: 30px;
+    color: #5C584D;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+p{
+    color: #DBB44B;
+    font-family: "Cormo";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.lafamilia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divfotofamilia{
+    width: 680px;
+    height: 380px;
+}
+.divtextofamilia{
+    width: 525px;
+    height: 350px;
+}
+.textoformulario {
+    color: #DBB44B;
+    font-family: "Cormo";
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+.mapa {
+    height: 380px;
+    width: 680px;
+}
+.dondeyhorario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.textohorario{
+    margin: 125px 50px 50px 50px;
+}
+.piedepagina {
+background-color: #DBB44B;
+text-decoration: none;
+text-align: center;
+}
+.productosh2 {
+    background-color: #DBB44B;
+}
+.productosh3 {
+    font-family: "Cormo";
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #DBB44B;
+    text-align: center;
+    color: #5C584D;
+}
+#textomerceria {
+    color: #DBB44B;
+}
+
+.textofooter{
+background-color: #DBB44B;
+color: #5C584D;
+font-family: "Cormo";
+}
+.redes{
+    background-color: #DBB44B;
+}
+.menu{
+    position: sticky;
+    top: 1px;
+    left: 1px;
+}
