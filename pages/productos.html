@@ -5,43 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gralito-Productos</title>
     <link rel="shortcut icon" href="../assets/faviconlana.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="menu">   
-        <section>
-            <nav>
-                <ul class="menunavegacion">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./lafamilia.html">La Familia</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./dondehorarios.html">Dónde, Horarios?</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li> 
-                </ul>
-            </nav>
-        </section>
+      <section class="menu">
+        <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menunavegacion">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../pages/lafamilia.html">La Familia</a></li>
+                        <li><a href="../pages/productos.html">Productos</a></li>
+                        <li><a href="../pages/dondehorarios.html">Dónde, Horarios?</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li> 
+                    </ul>
+                </div>
+        </nav>
+    </section>
     </header>
     <main>
-        <div>
-            <h2 class="productosh2"><a href="../pages/merceria.html">Mercería</a></h2>
-            <img src="../assets/productosmerceria.png" alt="Imagen de Botones, hilos y agujas">
-        </div>
-        <div>
-            <h2 class="productosh2"><a href="../pages/libreria.html">Librería</a></h2>
-            <img src="../assets/productoslibreria.png" alt="Imagen de Utiles Escolares">
-        </div>
-        <div>
-            <h2 class="productosh2"><a href="../pages/tiendaderopa.html">Tienda de Ropa</a></h2>
-            <img src="../assets/productosropa.png" alt="Imagen de Ropa">
-        </div>
+        <h1>Productos</h1>
+        <section class="cardsproductos">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/artistica.jpg" class="card-img-top" alt="fotodearte">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Artística</h2>
+                  <p class="textocards">Gran variedad de pinceles, hojas de dibujo, acuarelas, temperas y mucho más.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/productoslibreria.png" class="card-img-top" alt="foto con utiles escolares">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Utiles Escolares</h2>
+                  <p class="textocards">Tenemos todo lo que buscás para empezar bien el cole o la facu.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/papeleria.jpg" class="card-img-top" alt="imagen de papeles y carpetas">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Papelería</h2>
+                  <p class="textocards">Variedad de cuadernos, carpetas, materiales para manualidades y mucho más.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/agujas.jpg" class="card-img-top" alt="imagen de agujas e hilos">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Mercería</h2>
+                  <p class="textocards">Cierres, botones, cintas, todo lo que necesitás para tus arreglos caseros de ropa.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/ropainteriormujer.png" class="card-img-top" alt="imagen de mujeres en ropa interior">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Ropa Interior Mujer</h2>
+                  <p class="textocards">Todo tipo de comodidades para la mujer en su día a día. Variedad de talles y modelos.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/ropainteriorhombre.jpg" class="card-img-top" alt="imagen de hombres con camisa y boxer">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Ropa Interior Hombre</h2>
+                  <p class="textocards">Para ellos, algodón, lycra, medias. Variedad de talles y modelos.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/ropablanca.jpg" class="card-img-top" alt="imagen de toallas y sabanas">
+                <div class="card-body fondocards">
+                  <h2 class="card-title titulocards">Ropa Blanca</h2>
+                  <p class="textocards">Sábanas y toallas de algodón de la mejor calidad, variedad de tamaños y colores.</p>
+                </div>
+              </div>
+        </section>
     </main>
     <footer>
-        <div class="redes">
-            <img src="../assets/botonfacebook.png" alt="boton de facebook">
-            <img src="../assets/botoninstagram.png" alt="boton de instagram">
-        </div>
         <p class="textofooter">© 2024/Macarena Errecart</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
