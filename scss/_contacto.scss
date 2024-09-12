@@ -1,0 +1,14 @@
+.formulariocontacto{
+    font-family: $fuenteprimaria;
+    font-size: 30px;
+    color: $colorsecundario;
+    width: 50%;
+    .botonenviar{
+        background-color: $colorsecundario;
+        font-size: 20px;
+        border: none;
+    }
+    .botonenviar:hover{
+        background-color: $colorsecundario;
+    }
+}

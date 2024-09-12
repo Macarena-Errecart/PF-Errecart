@@ -1,178 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("../assets/Pacifico/Pacifico-Regular.ttf");
 }
 @font-face {
-    font-family: "Pacifico";
-    src: url("../assets/Pacifico/Pacifico-Regular.ttf");
+  font-family: "Cormo";
+  src: url("../assets/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
 }
-@font-face {
-    font-family: "Cormo";
-    src: url("../assets/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
+body {
+  background-color: #5C584D;
 }
-body{
-    background-color: #5C584D;
+
+header h1 {
+  font-family: "Pacifico";
+  color: #4B9ADB;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
-h1 {
-    font-family: "Pacifico";
-    color: #4B9ADB;
-    font-size: 50px;
-    font-weight: lighter;
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 20px;
+header .menu {
+  background-color: #DBB44B;
 }
+header .menunavegacion {
+  background-color: #DBB44B;
+  list-style-type: none;
+  margin: auto;
+}
+header .menunavegacion li {
+  display: inline;
+  padding-right: 100px;
+}
+header .menunavegacion li a {
+  font-family: "Cormo";
+  font-size: 30px;
+  color: #5C584D;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: color 2s, font-size 4s;
+}
+header .menunavegacion li a:hover {
+  color: #4B9ADB;
+  font-size: 35px;
+}
+
 h2 {
-    font-family: "Cormo";
-    color: #4B9ADB;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-}
-.menu{
-    background-color: #DBB44B;
-}
-.menunavegacion {
-    background-color: #DBB44B;
-    list-style-type: none;
-    margin: auto;
-}
-li {
-    display: inline;
-    padding-right: 100px;
-}
-a {
-    font-family: "Cormo";
-    font-size: 30px;
-    color: #5C584D;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
+  font-family: "Cormo";
+  color: #4B9ADB;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
 }
 
-p{
-    color: #DBB44B;
-    font-family: "Cormo";
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-}
-.lafamilia{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px;
-}
-img{
-    border-radius: 15px;
-}
-.divtextofamilia{
-    width: 525px;
-    height: 350px;
-}
-.textoformulario {
-    color: #DBB44B;
-    font-family: "Cormo";
-    font-size: 30px;
-    font-weight: lighter;
-    text-align: center;
-}
-.mapa {
-    height: 380px;
-    width: 680px;
-}
-.dondeyhorario{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-.textohorario{
-    margin: 125px 50px 50px 50px;
-}
-.productosh2 {
-    background-color: #DBB44B;
-}
-.productosh3 {
-    font-family: "Cormo";
-    font-size: 30px;
-    font-weight: bold;
-    background-color: #DBB44B;
-    text-align: center;
-    color: #5C584D;
-}
-.textofooter{
-background-color: #DBB44B;
-color: #5C584D;
-font-family: "Cormo";
-margin-top: 10px;
-}
-.cardsproductos{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.card{
-    border-color: #DBB44B;
-}
-.textocards{
-    font-family: "Cormo";
-    background-color: #5C584D;
-    font-size: 20px;
-    color: #DBB44B;
-}
-.fondocards{
-    background-color: #5C584D;
-}
-.titulocards{
-    color: #4B9ADB;
-    font-weight: bold;
-}
-.card-img-top{
-    height: 130px;
-}
-.botonenviar{
-    background-color: #DBB44B;
-    font-size: 20px;
-    border: none;
-}
-.botonenviar:hover{
-    background-color: #DBB44B;
-}
-.formulariocontacto{
-    font-family: "Cormo";
-    font-size: 30px;
-    color: #DBB44B;
-    width: 50%;
+p {
+  color: #DBB44B;
+  font-family: "Cormo";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
 }
 
-@media (max-width:320px) {
-    .lafamilia{
-        flex-direction: column;
-    }
-}
-@media(max-width:320px){
-    .textofamilia{
-        font-size: 15px;
-        
-    }
-}
-@media(max-width:320px){
-    .divtextofamilia{
-        width: 320px;
-    }
-}
-@media(max-width:320px){
-    .dondeyhorario{
-        flex-direction: column
-        }
+.textofooter {
+  background-color: #DBB44B;
+  color: #5C584D;
+  font-family: "Cormo";
+  margin-top: 10px;
 }
 
+.lafamilia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+.lafamilia .divtextofamilia {
+  width: 525px;
+  height: 350px;
+}
+.lafamilia img {
+  border-radius: 15px;
+}
 
+.cardsproductos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardsproductos .card {
+  border-color: #DBB44B;
+}
+.cardsproductos .card .card-img-top {
+  height: 130px;
+}
+.cardsproductos .card .fondocards {
+  background-color: #5C584D;
+}
+.cardsproductos .card .fondocards .titulocards {
+  color: #5C584D;
+  font-weight: bold;
+}
+.cardsproductos .card .fondocards .textocards {
+  font-family: "Cormo";
+  background-color: #5C584D;
+  font-size: 20px;
+  color: #DBB44B;
+}
 
+.dondeyhorario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.dondeyhorario .mapa {
+  height: 380px;
+  width: 680px;
+}
+.dondeyhorario .textohorario {
+  margin: 125px 50px 50px 50px;
+}
 
+.formulariocontacto {
+  font-family: "Cormo";
+  font-size: 30px;
+  color: #DBB44B;
+  width: 50%;
+}
+.formulariocontacto .botonenviar {
+  background-color: #DBB44B;
+  font-size: 20px;
+  border: none;
+}
+.formulariocontacto .botonenviar:hover {
+  background-color: #DBB44B;
+}
 
+@media (max-width: 320px) {
+  .lafamilia {
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .textofamilia {
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .divtextofamilia {
+    width: 320px;
+  }
+}
+@media (max-width: 320px) {
+  .dondeyhorario {
+    flex-direction: column;
+  }
+}
 
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+.dondeyhorario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    .mapa {
+        height: 380px;
+        width: 680px;
+    }
+    .textohorario{
+        margin: 125px 50px 50px 50px;
+    }
+}

@@ -1,0 +1,14 @@
+.lafamilia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    .divtextofamilia{
+        width: 525px;
+        height: 350px;
+    }
+    img{
+        border-radius: 15px;
+    }
+}
+

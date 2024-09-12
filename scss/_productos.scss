@@ -1,0 +1,26 @@
+.cardsproductos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        border-color: $colorsecundario;
+        .card-img-top{
+            height: 130px;
+        }
+        .fondocards{
+            background-color: $colorprimario;
+            .titulocards{
+                color: $colorprimario;
+                font-weight: bold;
+            }
+            .textocards{
+                font-family: $fuenteprimaria;
+                background-color: $colorprimario;
+                font-size: 20px;
+                color: $colorsecundario;
+            }
+        }
+    }
+}
