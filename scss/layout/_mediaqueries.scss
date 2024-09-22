@@ -1,0 +1,21 @@
+@media (min-width:320px) and (max-width:1024px) {
+    .lafamilia{
+        flex-direction: column;
+    }
+    .textofamilia{
+        font-size: 15px;
+        
+    }
+    .divtextofamilia{
+        display: flex;
+        width: 100%;
+        justify-self: center;
+    }
+    .dondeyhorario{
+        flex-direction: column
+    }
+    .cardsproductos{
+        justify-content: center;
+
+    }
+}

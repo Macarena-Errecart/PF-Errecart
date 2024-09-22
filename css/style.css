@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.dondeyhorario, .lafamilia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -76,20 +82,39 @@ p {
   background-color: #DBB44B;
   color: #5C584D;
   font-family: "Cormo";
+  margin-bottom: 1px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.redessociales {
+  background-color: #DBB44B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
   margin-top: 10px;
 }
 
+.botonredes {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
 .lafamilia {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: 30px;
 }
 .lafamilia .divtextofamilia {
-  width: 525px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 .lafamilia img {
+  width: 100%;
   border-radius: 15px;
 }
 
@@ -98,7 +123,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .cardsproductos .card {
   border-color: #DBB44B;
@@ -121,14 +146,12 @@ p {
 }
 
 .dondeyhorario {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin-top: 60px;
 }
 .dondeyhorario .mapa {
-  height: 380px;
-  width: 680px;
+  height: 320px;
+  width: 100%;
+  margin-left: 50%;
 }
 .dondeyhorario .textohorario {
   margin: 125px 50px 50px 50px;
@@ -149,24 +172,23 @@ p {
   background-color: #DBB44B;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 1024px) {
   .lafamilia {
     flex-direction: column;
   }
-}
-@media (max-width: 320px) {
   .textofamilia {
     font-size: 15px;
   }
-}
-@media (max-width: 320px) {
   .divtextofamilia {
-    width: 320px;
+    display: flex;
+    width: 100%;
+    justify-self: center;
   }
-}
-@media (max-width: 320px) {
   .dondeyhorario {
     flex-direction: column;
+  }
+  .cardsproductos {
+    justify-content: center;
   }
 }
 

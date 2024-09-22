@@ -1,0 +1,94 @@
+html {
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../assets/Pacifico/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: "Cormo";
+    src: url("../assets/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf");
+}
+body{
+    background-color: $colorprimario;
+}
+header{
+    h1 {
+        font-family: $fuentesecundaria;
+        color: $colorterciario;
+        font-size: 50px;
+        font-weight: lighter;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+    .menu{
+        background-color: $colorsecundario;
+    }
+    .menunavegacion {
+        background-color: $colorsecundario;
+        list-style-type: none;
+        margin: auto;
+        li {
+            display: inline;
+            padding-right: 100px;
+            a {
+                font-family: $fuenteprimaria;
+                font-size: 30px;
+                color: $colorprimario;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: none;
+                transition: color 2s, font-size 4s;
+            }
+            a:hover{
+                color: $colorterciario;
+                font-size: 35px;
+            }
+    }
+    }
+    
+}
+h2 {
+    font-family: $fuenteprimaria;
+    color: $colorterciario;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+p{
+    color: $colorsecundario;
+    font-family: $fuenteprimaria;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.textofooter{
+    background-color: $colorsecundario;
+    color: $colorprimario;
+    font-family: $fuenteprimaria;
+    margin-bottom: 1px;
+    }
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.redessociales{
+    background-color: $colorsecundario;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.botonredes{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}

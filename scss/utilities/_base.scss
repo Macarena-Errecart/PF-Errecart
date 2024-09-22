@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$colorprimario: #5C584D;
+$colorsecundario: #DBB44B;
+$colorterciario: #4B9ADB;
+$fuenteprimaria: "Cormo";
+$fuentesecundaria: "Pacifico";
+
+%flexrowbetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
