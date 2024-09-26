@@ -3,8 +3,7 @@
         flex-direction: column;
     }
     .textofamilia{
-        font-size: 15px;
-        
+        font-size: 15px; 
     }
     .divtextofamilia{
         display: flex;
@@ -16,6 +15,18 @@
     }
     .cardsproductos{
         justify-content: center;
-
+        flex-direction: column;
+        .card{
+            margin-top: 20px;
+        }
+        .cardsprimeralinea{
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .cardssegundalinea{
+            flex-direction: column;
+            margin-top: 20px;
+        }
     }
+    
 }

@@ -1,12 +1,13 @@
 .dondeyhorario{
     @extend%flexrowbetween;
-    margin-top: 60px;
+    margin: 40px 20px 20px 20px;
     .mapa {
         height: 320px;
         width: 100%;
-        margin-left: 50%;
+        display: flex;
+        justify-content: space-between;
     }
     .textohorario{
-        margin: 125px 50px 50px 50px;
+        margin: 50px 50px 50px 50px;
     }
 }

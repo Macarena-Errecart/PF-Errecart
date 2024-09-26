@@ -1,6 +1,8 @@
 .lafamilia{
     @extend%flexrowbetween;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
     .divtextofamilia{
         width: 100%;
         height: 100%;

@@ -3,19 +3,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    .card{
+    justify-content: center;
+    align-items: center;
+    .cardsprimeralinea{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cardssegundalinea{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .card{
+            margin-right: 20px;
         border-color: $colorsecundario;
-        .card-img-top{
+            .card-img-top{
             height: 130px;
         }
-        .fondocards{
+            .fondocards{
             background-color: $colorprimario;
             .titulocards{
                 color: $colorprimario;
                 font-weight: bold;
             }
-            .textocards{
+                .textocards{
                 font-family: $fuenteprimaria;
                 background-color: $colorprimario;
                 font-size: 20px;
